@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19: The Hard Truth</title>
+    <!-- import your final project's stylesheet and Google Fonts -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- link to DataTable -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.22/datatables.min.css"/>
+    
+    <!-- import your final project's javascript files -->
+    <script src="https://kit.fontawesome.com/740e6c08cb.js" crossorigin="anonymous"></script>
+    <!-- please just use this line for this project only as it contains my own Font Awesome key -->
+
+    <!-- import external scripts from other JS libraries -->
+    <!-- Highcharts
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-3d.js"></script>
+    <script src="https://code.highcharts.com/modules/data.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script> -->
+
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/series-label.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+
+    <!-- DataTable-->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+    <script src="main.js"></script>
+   
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/data.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+   
+</head>
+
+<body>
+    <!-- Facebook JavaScript SDK-->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0"
+        nonce="6SZepde3"></script>
+
+    <!-- Hero image (the main image of the page; this can be a photoshop arrangement, a video, or a vector graphics; just pick one option) -->
+    <div id="Coronavirus_header_1600_500">
+        <!-- upload an image/graphic to the img folder and set the link in src="", add a short name to alt="" -->
+        <figure>
+        <img src="Coronavirus_header_1600_500.jpg" alt="Covid" width="100%">
+        <figcaption><Fig class="1"></Fig>Photo Credit:Allegheny County Website</figcaption>
+        </figure>
+
+        <!-- Upload a video to YouTube and embed the code below  -->
+        <figure>
+        <iframe  width="100%" height="615" src="https://www.youtube.com/embed/Kas0tIxDvrg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <figcaption><figure class="1">Video Credit:https://www.youtube.com/watch?v=Kas0tIxDvrg&feature=emb_title</figcaption>
+         </figure>
+    </div>
+
+    <!-- write the headings of your story -->
+    <div id="intro">
+        <h1>COVID-19: The Hard Truth </h1>
+        <p class="byline">Justus Gaphardt | For MC 316 </p>
+        <p class="date"><sup></sup> November 25, 2020</p>
+    </div>
+
+    <!-- create a social media menu so that people can reach you (replace the placeholders with your real facebook, twitter, instagram links) -->
+    <div id="social">
+        <ul>
+            <li><a href="https://twitter.com/JustusDG" target="_blank" id="twitter"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://facebook.com/" target="_blank" id="facebook"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/justus_dg/" target="_blank" id="instagram"><i class="fab fa-instagram"></i></a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- start writing your story below-->
+    <div class="main-text">
+        <p>
+            When the first rumblings of Cornoavirus came to the United States, most Americans didn't think there was any cause for concern. Our Presidential administration played it off something we didn't need to worry about. However, as the months went on, we began to realize just how wrong they were.
+        </p>
+        <p>
+            In this story I will be discussing the number of positive Covid cases, and how they;ve gradually increased over the past 9 months. I will also be highlighting age brackets affected most by Covid, and how it is more harmful to the younger demopgrahic than some would believe. Finally, I'll be showing the number of cases and deaths on a state by state basis; to better understand if Covid has been equally as harmful throughout the country.
+        </p>
+        <p>
+            The Coronavirus Disease 2019 (COVID-19) is a communicable respiratory disease, caused by a new strain of coronavirus that causes illness in humans. The disease was first reported in China, towards the end of 2019. It has now spread throughout the world. 
+        </p>
+        <p>
+            Currently, scientists are still learning all they can about the virus. They know now that it origniated from an animal. At some point, one or more humans were infected from said animal, and those infected humans began transmitting the virus to others.
+        </p>
+        <p>
+            The disease spreads from person to person, through infected air droplets that are projected when either coughing or sneezing.  It can also be transmitted when humans have physical contact with each other, or surfaces that are then touched by other human beings. The person is then infected when they touch their eyes, nose, or mouth with their contaminated hands. <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target='blank'> Read more about the disease</a>
+        </p>
+    </div>
+
+    <!-- your first section -->
+    <h3>Number of speciments tested nation-wide from March 1, 2020 - November 21, 2020</h3>
+
+    <!-- add your first graphics here -->
+    <div id="graphic-1"><script src="chart1.js"></script><div>
+    <!-- if you are using Highchart JS, add a pair of script tags below and write the code in between; make sure you replace "container" with "graphic-1"-->
+
+
+    <div class="main-text">
+        <p> I retrieved this data <a href="https://covid.cdc.gov/covid-data-tracker/#trends_dailytrendscases" target='blank'>HERE</a></p>
+        <p>
+            From the data above, you can see that as the amount of people tested increased, the amount of positive cases did as well. The highest tested week was Week 46, which also gave us the most positive cases. For the most part, the number of positive cases are increasing weekly, showing that the efforts to contain the virus have been to no avail.
+        </p>
+    </div>
+
+    <!-- your second section -->
+    <h3>Postive cases spread accross age brackets nation-wide</h3>
+
+    <!-- add your second graphics here -->
+    <div id="graphic-2"><script src="chart2.js"></script></div>
+
+    <!-- if you are using Highchart JS, write the code in between a pair of script tags below; make sure you replace "container" with "graphic-2"-->
+
+
+    <div class="main-text">
+        <p>
+            I retrieved this data <a href="https://covid.cdc.gov/covid-data-tracker/#demographics" target='blank'>HERE</a>
+        </p>
+        <p>
+            This chart of data shows which age groups have been the most affected by Covid. 18-49 years has a much larger percentage of cases than all other age groups combined. This could likely be because this group of people are have taken the virus less serious, as a large amount of people only believe it to be dangerous to the older demographic.            
+
+            During a Zoom interview, when asked about ages of patients she's seeing come in for care, Wesley Medical Center Nurse Keelah Warden says that isn't the case. "I've had patients that are anywhere from early 20's to senior citizens come in having complications with Covid. Some with out any pre-existing health conditions. They didn't think the virus could affect them like this"
+        </p>
+    </div>
+
+
+    <!-- your third section -->
+
+    <h3>United States COVID-19 Cases and Deaths by State</h3>   
+
+    <!-- add your third graphics here -->
+    <div id="graphic-3">
+        <table  id="dt-table" width="100%" class="display table table-bordered table-hover table-condensed">
+            <thead><tr><th title="Field #1">State/Provice</th>
+            <th title="Field #2">Positive</th>
+            <th title="Field #3">Deaths</th>
+            </tr></thead>
+            <tbody><tr>
+            <td>Alaska</td>
+            <td align="right">31323</td>
+            <td align="right">120</td>
+            </tr>
+            <tr>
+            <td>Alabama</td>
+            <td align="right">249524</td>
+            <td align="right">3578</td>
+            </tr>
+            <tr>
+            <td>Arkansas</td>
+            <td align="right">157359</td>
+            <td align="right">2502</td>
+            </tr>
+            <tr>
+            <td>American Samoa</td>
+            <td align="right">3</td>
+            <td align="right">0</td>
+            </tr>
+            <tr>
+            <td>Arizona</td>
+            <td align="right">326817</td>
+            <td align="right">6639</td>
+            </tr>
+            <tr>
+            <td>California</td>
+            <td align="right">1212968</td>
+            <td align="right">19141</td>
+            </tr>
+            <tr>
+            <td>Colorado</td>
+            <td align="right">232905</td>
+            <td align="right">3037</td>
+            </tr>
+            <tr>
+            <td>Connecticut</td>
+            <td align="right">117295</td>
+            <td align="right">5020</td>
+            </tr>
+            <tr>
+            <td>District of Columbia</td>
+            <td align="right">21552</td>
+            <td align="right">680</td>
+            </tr>
+            <tr>
+            <td>Delaware</td>
+            <td align="right">36343</td>
+            <td align="right">777</td>
+            </tr>
+            <tr>
+            <td>Florida</td>
+            <td align="right">983370</td>
+            <td align="right">18597</td>
+            </tr>
+            <tr>
+            <td>Federated States of Micronesia</td>
+            <td align="right">0</td>
+            <td align="right">0</td>
+            </tr>
+            <tr>
+            <td>Georgia</td>
+            <td align="right">471563</td>
+            <td align="right">9452</td>
+            </tr>
+            <tr>
+            <td>Guam</td>
+            <td align="right">6889</td>
+            <td align="right">112</td>
+            </tr>
+            <tr>
+            <td>Hawaii</td>
+            <td align="right">17708</td>
+            <td align="right">242</td>
+            </tr>
+            <tr>
+            <td>Iowa</td>
+            <td align="right">229448</td>
+            <td align="right">2403</td>
+            </tr>
+            <tr>
+            <td>Idaho</td>
+            <td align="right">101698</td>
+            <td align="right">929</td>
+            </tr>
+            <tr>
+            <td>Illinois</td>
+            <td align="right">726304</td>
+            <td align="right">12985</td>
+            </tr>
+            <tr>
+            <td>Indiana</td>
+            <td align="right">338977</td>
+            <td align="right">5722</td>
+            </tr>
+            <tr>
+            <td>Kansas</td>
+            <td align="right">157446</td>
+            <td align="right">1560</td>
+            </tr>
+            <tr>
+            <td>Kentucky</td>
+            <td align="right">179041</td>
+            <td align="right">1908</td>
+            </tr>
+            <tr>
+            <td>Louisiana</td>
+            <td align="right">232414</td>
+            <td align="right">6420</td>
+            </tr>
+            <tr>
+            <td>Massachusetts</td>
+            <td align="right">228225</td>
+            <td align="right">10720</td>
+            </tr>
+            <tr>
+            <td>Maryland</td>
+            <td align="right">201135</td>
+            <td align="right">4673</td>
+            </tr>
+            <tr>
+            <td>Maine</td>
+            <td align="right">11976</td>
+            <td align="right">214</td>
+            </tr>
+            <tr>
+            <td>Michigan</td>
+            <td align="right">388942</td>
+            <td align="right">9564</td>
+            </tr>
+            <tr>
+            <td>Minnesota</td>
+            <td align="right">318763</td>
+            <td align="right">3652</td>
+            </tr>
+            <tr>
+            <td>Missouri</td>
+            <td align="right">299762</td>
+            <td align="right">3829</td>
+            </tr>
+            <tr>
+            <td>Northern Mariana Islands</td>
+            <td align="right">106</td>
+            <td align="right">2</td>
+            </tr>
+            <tr>
+            <td>Mississippi</td>
+            <td align="right">154411</td>
+            <td align="right">3836</td>
+            </tr>
+            <tr>
+            <td>Montana</td>
+            <td align="right">62198</td>
+            <td align="right">681</td>
+            </tr>
+            <tr>
+            <td>North Carolina</td>
+            <td align="right">364512</td>
+            <td align="right">5261</td>
+            </tr>
+            <tr>
+            <td>North Dakota</td>
+            <td align="right">79655</td>
+            <td align="right">954</td>
+            </tr>
+            <tr>
+            <td>Nebraska</td>
+            <td align="right">128407</td>
+            <td align="right">1018</td>
+            </tr>
+            <tr>
+            <td>New Hampshire</td>
+            <td align="right">20994</td>
+            <td align="right">526</td>
+            </tr>
+            <tr>
+            <td>New Jersey</td>
+            <td align="right">337304</td>
+            <td align="right">16993</td>
+            </tr>
+            <tr>
+            <td>New Mexico</td>
+            <td align="right">97095</td>
+            <td align="right">1568</td>
+            </tr>
+            <tr>
+            <td>Nevada</td>
+            <td align="right">152169</td>
+            <td align="right">2144</td>
+            </tr>
+            <tr>
+            <td>New York</td>
+            <td align="right">336001</td>
+            <td align="right">10002</td>
+            </tr>
+            <tr>
+            <td>New York City</td>
+            <td align="right">321064</td>
+            <td align="right">24288</td>
+            </tr>
+            <tr>
+            <td>Ohio</td>
+            <td align="right">421063</td>
+            <td align="right">6429</td>
+            </tr>
+            <tr>
+            <td>Oklahoma</td>
+            <td align="right">205999</td>
+            <td align="right">1752</td>
+            </tr>
+            <tr>
+            <td>Oregon</td>
+            <td align="right">75431</td>
+            <td align="right">912</td>
+            </tr>
+            <tr>
+            <td>Pennsylvania</td>
+            <td align="right">361478</td>
+            <td align="right">10383</td>
+            </tr>
+            <tr>
+            <td>Puerto Rico</td>
+            <td align="right">53320</td>
+            <td align="right">1122</td>
+            </tr>
+            <tr>
+            <td>Palau</td>
+            <td align="right">0</td>
+            <td align="right">0</td>
+            </tr>
+            <tr>
+            <td>Rhode Island</td>
+            <td align="right">56723</td>
+            <td align="right">1373</td>
+            </tr>
+            <tr>
+            <td>Republic of Marshall Islands</td>
+            <td align="right">4</td>
+            <td align="right">0</td>
+            </tr>
+            <tr>
+            <td>South Carolina</td>
+            <td align="right">217487</td>
+            <td align="right">4381</td>
+            </tr>
+            <tr>
+            <td>South Dakota</td>
+            <td align="right">80464</td>
+            <td align="right">946</td>
+            </tr>
+            <tr>
+            <td>Tennessee</td>
+            <td align="right">374493</td>
+            <td align="right">4602</td>
+            </tr>
+            <tr>
+            <td>Texas</td>
+            <td align="right">1168111</td>
+            <td align="right">21379</td>
+            </tr>
+            <tr>
+            <td>Utah</td>
+            <td align="right">195706</td>
+            <td align="right">871</td>
+            </tr>
+            <tr>
+            <td>Virginia</td>
+            <td align="right">240064</td>
+            <td align="right">4093</td>
+            </tr>
+            <tr>
+            <td>Virgin Islands</td>
+            <td align="right">1550</td>
+            <td align="right">23</td>
+            </tr>
+            <tr>
+            <td>Vermont</td>
+            <td align="right">4172</td>
+            <td align="right">69</td>
+            </tr>
+            <tr>
+            <td>Washington</td>
+            <td align="right">165019</td>
+            <td align="right">2774</td>
+            </tr>
+            <tr>
+            <td>Wisconsin</td>
+            <td align="right">411730</td>
+            <td align="right">3494</td>
+            </tr>
+            <tr>
+            <td>West Virginia</td>
+            <td align="right">47842</td>
+            <td align="right">735</td>
+            </tr>
+            <tr>
+            <td>Wyoming</td>
+            <td align="right">33305</td>
+            <td align="right">215</td>
+            </tr>
+            <tr>
+            <td>United States of America</td>
+            <td align="right">13447627</td>
+            <td align="right">267302</td>
+            </tr>
+            </tbody></table>
+    </div>
+
+    <!-- if you are using Highchart JS, write the code in between a pair of script tags below; make sure you replace "container" with "graphic-2"-->
+   
+   
+    <div class="main-text">
+        <p>  I retrieved this data <a href="https://covid.cdc.gov/covid-data-tracker/#cases_casesper100klast7days" target='blank'>HERE</a></p>
+        <p>
+            The above chart shows the number of positive cases, as well as deaths in each state. There are  states that have reached over a million cases, with another close behind. In an in-person interview, Joscelyn Wiley, a Baycare Site Manager in FLorida, the state with the 3rd most cases, states how hard it's been dealing with so many positive cases. "Everyday we're dealing with an increasing number of cases. Sometimes, a patient will come in looking to be treated for a different problem. However if they are exhibiting any Covid symptoms, we have to test them for that first. If the test comes back positive, we can't treat them for what they originally came in for, which is ultimately tough on the patient"
+        </p>
+    </div>
+
+    <!-- write your data methodology section -->
+
+    <div id="data-method">
+        <h4>Data collection and data analysis</h4>
+        <p>
+            The above data was sourced from the CDC website, which contains the most reliable Covid 19 data. <a href='https://cdc.gov' target='blank'> CDC.GOV</a> remains the largest and central body for collecting all data related to COVID-19. I was able to find all the data I used <a href='https://covid.cdc.gov/covid-data-tracker/#cases_casesper100klast7days' target='blank'>HERE</a> 
+            <br>
+            <a href='https://covid.cdc.gov/covid-data-tracker/'>COVID-19 Open data</a>
+        </p>
+    </div>
+    
+    <!-- Share button | Go here to generate the real url: https://developers.facebook.com/docs/plugins/share-button/ -->
+    <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count"
+    data-size="small"><a target="_blank"
+        href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse"
+        class="fb-xfbml-parse-ignore">Share</a></div>
+
+        </div>
+
+    <!-- add things to your footer-->
+    <footer>
+        <p>© Copyright 2020, Manhattan, KS</p>
+    </footer>
+    
+    <script src="table.js"></script>
+</body>
+
+</html>

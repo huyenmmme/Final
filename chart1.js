@@ -31,7 +31,7 @@ Highcharts.chart("graphic-1", {
         label: {
           connectorAllowed: false,
         },
-        pointStart: Date.UTC(2020,22,1)
+        pointStart: Date.UTC(2020,0,1)
         pointInterval: 24 * 3600 * 1000 // one day  
       },
     },

@@ -4,7 +4,7 @@ Highcharts.chart("graphic-1", {
     },
   
     subtitle: {
-      text: "Source: cdc.gov",
+      text: "Source: Center for Disease Control and Prevention",
     },
   
     yAxis: {

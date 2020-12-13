@@ -1,4 +1,7 @@
 Highcharts.chart("graphic-1", {
+    chart: {
+        zoomType: "xy"
+    },
     title: {
       text: "COVID-19 Combined U.S. Laboratories Reporting to CDC, March 1, 2020 - November 21, 2020",
     },
@@ -24,7 +27,7 @@ Highcharts.chart("graphic-1", {
   
     plotOptions: {
       series: {
-        pointStart: Date.UTC(2020,0,1)
+        pointStart: Date.UTC(2020,0,1),
         pointInterval: 24 * 3600 * 1000 // one day  
       },
     },

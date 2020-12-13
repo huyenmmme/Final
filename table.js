@@ -4,7 +4,7 @@ Highcharts.chart('graphic-3', {
     },
     chart: {
         type: 'column',
-        zoomType: 'x'
+        zoomType: 'xy'
     },
     title: {
         text: 'United States COVID-19 Cases and Deaths by State'

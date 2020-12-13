@@ -30,7 +30,7 @@ Highcharts.chart("graphic-1", {
         label: {
           connectorAllowed: false,
         },
-        pointStart: 03/01/2020,
+        pointStart: March,
       },
     },
   

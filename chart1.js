@@ -15,7 +15,7 @@ Highcharts.chart("graphic-1", {
   
     xAxis: {
       accessibility: {
-        rangeDescription: "Range: 202010 to 202047",
+        rangeDescription: "Range: 03/01/2020 to 11/21/2020 ",
       },
     },
   
@@ -30,7 +30,7 @@ Highcharts.chart("graphic-1", {
         label: {
           connectorAllowed: false,
         },
-        pointStart: 202010,
+        pointStart: 03/01/2020,
       },
     },
   

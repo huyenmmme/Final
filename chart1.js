@@ -1,4 +1,7 @@
 Highcharts.chart("graphic-1", {
+    chart: {
+         zoomType: 'x'
+    },
     title: {
       text: "COVID-19 Combined U.S. Laboratories Reporting to CDC, March 1, 2020 - November 21, 2020",
     },

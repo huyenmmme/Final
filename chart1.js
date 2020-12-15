@@ -31,11 +31,8 @@ Highcharts.chart("graphic-1", {
       },
     },
        labels: { 
-      formatter: function() { 
-        return Highcharts.dateFormat('day: '%e. %b',', 
-                                      this.value); 
+      formatter: dateFormat('%b \'%y'); 
       } 
-    } 
   , 
  
     series: [

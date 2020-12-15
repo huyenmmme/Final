@@ -27,7 +27,7 @@ Highcharts.chart("graphic-1", {
   
     plotOptions: {
       series: {
-        pointStart: Date.UTC(2020,0,22),
+        pointStart: Date.UTC(2020,0,1),
         pointInterval: 24 * 3600 * 1000 // one day  
       },
     },
@@ -35,7 +35,7 @@ Highcharts.chart("graphic-1", {
     series: [
       {
         name: "New Cases",
-        data: [1,
+        data: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
 0,
 1,
 0,
@@ -364,7 +364,7 @@ Highcharts.chart("graphic-1", {
       },
       {
         name: "7-Day Moving Average",
-        data: [0,
+        data: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,
 0,
 0,

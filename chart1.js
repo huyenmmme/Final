@@ -30,11 +30,6 @@ Highcharts.chart("graphic-1", {
         pointInterval: 24 * 3600 * 1000 // one day  
       },
     },
-       labels: { 
-      formatter: dateFormat('%b \'%y'); 
-      } 
-  , 
- 
     series: [
       {
         name: "New Cases",

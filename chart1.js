@@ -27,7 +27,7 @@ Highcharts.chart("graphic-1", {
   
     plotOptions: {
       series: {
-        pointStart: Date.UTC(2020,22,1),
+        pointStart: Date.UTC(2020,0,22),
         pointInterval: 24 * 3600 * 1000 // one day  
       },
     },

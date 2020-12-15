@@ -18,7 +18,6 @@ Highcharts.chart("graphic-1", {
     xAxis: {
         type: 'datetime'
     },
-  
     legend: {
       layout: "vertical",
       align: "right",
@@ -31,7 +30,14 @@ Highcharts.chart("graphic-1", {
         pointInterval: 24 * 3600 * 1000 // one day  
       },
     },
-  
+       labels: { 
+      formatter: function() { 
+        return Highcharts.dateFormat('day: '%e. %b',', 
+                                      this.value); 
+      } 
+    } 
+  , 
+ 
     series: [
       {
         name: "New Cases",
